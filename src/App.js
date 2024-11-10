@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Player from "@madzadev/audio-player";
 import "@madzadev/audio-player/dist/index.css";
-import sound from './content/ST2Chapter1.mp3'
+import sound from './content/CH1ST2.mp3'
 const tracks = [
   {
     url: sound,
