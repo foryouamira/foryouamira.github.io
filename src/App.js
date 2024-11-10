@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Player from "@madzadev/audio-player";
 import "@madzadev/audio-player/dist/index.css";
-import sound from './content/test.mp3'
+import sound from './content/ST2 Chapter I.mp3'
 const tracks = [
   {
     url: sound,
-    title: "Test",
+    title: "Chapter 1. The Sign of Four",
     tags: ["house"],
   },
   {
