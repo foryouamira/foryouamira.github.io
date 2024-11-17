@@ -51,6 +51,7 @@ const track3 = [
 ];
 
 function App() {
+  const [totRun, setRun] = useState(59.45);
   // Declare a state variable to track visibility
   const [isVisible, setIsVisible] = useState(false);
   // Function to toggle visibility
@@ -118,6 +119,7 @@ function App() {
       <header className="App-header">
         <h1 style = {{marginTop: "30px", fontSize: "40px"}}>A collection, to be continued with every night I read to you. </h1>
         <h2 style = {{marginTop: "30px", fontSize: "30px"}}>(Violin to be added soon... not good enough yet)</h2>
+        <h3 style = {{marginTop: "30px", fontSize: "20px"}}>Total runtime: {totRun} minutes</h3>
         <a className="App-link" href="https://sherlock-holm.es/stories/html/cano.html#Story-1" style = {{marginTop: "50px"}}>A Study in Scarlet</a>
         <Player trackList={tracks} />
         <a className="App-link" href="https://sherlock-holm.es/stories/html/cano.html#Story-4">The Red-Headed League</a>
