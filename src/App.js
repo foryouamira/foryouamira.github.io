@@ -83,33 +83,33 @@ function App() {
     
     <div className="App">
       {!isVisible &&(
-        <h1 style={{ marginTop: "300px" }}>{li[accept]}</h1>
+        <h1 style={{ marginTop: "200px" }}>{li[accept]}</h1>
       )}
       {!isVisible && (accept<1) &&(
         <h1>My Raazi</h1>
       )}
       {!isVisible && (accept<1) &&(
-        <button onClick={toggleVisibility} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: `${count}px`}}>
+        <button onClick={toggleVisibility} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: `${count}px`, marginBottom: "40px"}}>
           {!isVisible} I accept
         </button>
       )}
       {!isVisible && (accept==1)&&(
-        <button onClick={toggleVisibility} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: `${count}px`}}>
+        <button onClick={toggleVisibility} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: `${count}px`, marginBottom: "40px"}}>
           {!isVisible} I love you too
         </button>
       )}
       {!isVisible && (accept<1)&&(
-        <button onClick={handleClick} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: '30px'}}>
+        <button onClick={handleClick} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: '30px', marginBottom: "40px"}}>
           {!isVisible} I reject
         </button>
       )}
       {!isVisible && (accept==1)&&(
-        <button onClick={handleClick} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: '30px'}}>
+        <button onClick={handleClick} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: '30px', marginBottom: "40px"}}>
           {!isVisible} Meh
         </button>
       )}
       {!isVisible && (accept==2)&&(
-        <button onClick={toggleVisibility} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: `${count}px`}}>
+        <button onClick={toggleVisibility} style={{ marginTop: "20px", padding: "12px 70px",  fontSize: `${count}px`, marginBottom: "40px"}}>
           {!isVisible} Oh come on this is taking forever
         </button>
       )}
