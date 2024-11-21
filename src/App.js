@@ -121,11 +121,11 @@ function App() {
         <h2 style = {{marginTop: "30px", fontSize: "30px"}}>(Violin to be added soon... not good enough yet)</h2>
         <h3 style = {{marginTop: "30px", fontSize: "20px"}}>Total runtime: {totRun} minutes</h3>
         <a className="App-link" href="https://sherlock-holm.es/stories/html/cano.html#Story-1" style = {{marginTop: "50px"}}>A Study in Scarlet</a>
-        <Player trackList={tracks} />
+        <Player trackList={tracks} autoPlayNextTrack={false}/>
         <a className="App-link" href="https://sherlock-holm.es/stories/html/cano.html#Story-4">The Red-Headed League</a>
-        <Player trackList={track2}/>
+        <Player trackList={track2} autoPlayNextTrack={false}/>
         <h2 className="App-link" >Words to a sleeping princess</h2>
-        <Player trackList={track3}/>
+        <Player trackList={track3} autoPlayNextTrack={false}/>
       </header>
       )}
     </div>
